@@ -1,5 +1,3 @@
-testing 1 2 3 
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/CarrotInPot/website/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
