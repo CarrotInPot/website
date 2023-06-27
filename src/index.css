@@ -5,9 +5,9 @@ html {
 
 body {
   margin: 0;
-  font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
+  font:300 15px/1.4 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
   color: #444;
-  background-color: #022c43;
+  background-color: #ffffff;
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;

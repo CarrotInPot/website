@@ -1,1 +1,24 @@
+.page{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
 
+.top-tags{
+    bottom: auto;
+    top: 35px;
+}
+
+.tags{
+    color: #181818; 
+    opacity: 0.6; 
+    position: absolute; 
+    bottom: 0;
+    left: 120px; 
+    font-size: 18px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;  
+}
+
+.bottom-tag-html{
+    margin-left: -20px; 
+}

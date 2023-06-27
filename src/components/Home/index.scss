@@ -1,0 +1,32 @@
+.home-page{
+
+    .text-zone{
+        position: absolute;
+        left: 10%; 
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+
+    h1 {
+        color: #121212;  
+        font-size: 53px; 
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight:400; 
+        animation: fadeIn 1s 1s backwards;
+
+        img {
+            width: 300px;
+            margin-left: 20px;
+        }
+    }
+
+    h2 {
+        color: #121212;  
+        font-family: 'Coolvetica';
+        letter-spacing: 1px;
+        animation: fadeIn 1.5s 2s backwards;
+    }
+}
