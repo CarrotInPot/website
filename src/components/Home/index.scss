@@ -20,6 +20,7 @@
         img {
             width: 300px;
             margin-left: 20px;
+            animation: fadeIn 1s 3.5s backwards;
         }
     }
 
@@ -27,6 +28,6 @@
         color: #121212;  
         font-family: 'Coolvetica';
         letter-spacing: 1px;
-        animation: fadeIn 1.5s 2s backwards;
+        animation: fadeIn 1.5s 4s backwards;
     }
 }
