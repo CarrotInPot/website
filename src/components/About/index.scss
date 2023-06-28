@@ -13,7 +13,7 @@
     animation-name: spincube;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-duration: 12s;
+    animation-duration: 20s;
     transform-style: preserve-3d;
     transform-origin: 100px 100px 0;
     margin-left: calc(50% - 100px);
@@ -34,27 +34,27 @@
   
     .face1 {
       transform: translateZ(150px);
-      color: #181818;
+      color: #050e0b;
     }
     .face2 {
       transform: rotateY(90deg) translateZ(150px);
-      color: #181818;
+      color: #F06529;
     }
     .face3 {
       transform: rotateY(90deg) rotateX(90deg) translateZ(150px);
-      color: #181818;
+      color: #f70d0c;
     }
     .face4 {
       transform: rotateY(180deg) rotateZ(90deg) translateZ(150px);
-      color: #181818;
+      color: #5ED4F4;
     }
     .face5 {
       transform: rotateY(-90deg) rotateZ(90deg) translateZ(150px);
-      color: #181818;
+      color: #EFD81D;
     }
     .face6 {
       transform: rotateX(-90deg) translateZ(150px);
-      color: #181818;
+      color: #28A4D9;
     }
   }
   
