@@ -10,8 +10,8 @@
     }
 
     h1 {
-        color: #121212;  
-        font-size: 53px; 
+        color: #ffffff;  
+        font-size: 70px; 
         margin: 0;
         font-family: 'Coolvetica';
         font-weight:400; 
@@ -25,9 +25,23 @@
     }
 
     h2 {
-        color: #121212;  
+        color: #ffffff;  
         font-family: 'Coolvetica';
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
         animation: fadeIn 1.5s 4s backwards;
+    }
+
+    .flat-button {
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #ffffff;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 4.5s backwards; 
     }
 }
