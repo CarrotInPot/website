@@ -2,7 +2,7 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect,useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGitAlt, faHtml5, faJava, faJs, faJsSquare, faPython } from '@fortawesome/free-brands-svg-icons'
+import { faCss3Alt, faHtml5, faJava, faJsSquare, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
 
 const About = () => {
     const [letterClass,setLetterClass] = useState('text-animate')
@@ -41,22 +41,22 @@ const About = () => {
             <div className='stage-cube-cont'>
                 <div className='cubespinner'>
                     <div className='face1'>
-                        <FontAwesomeIcon icon={faPython} color ="#DD0031" /> 
+                        <FontAwesomeIcon icon={faPython} color ="#050e0b" /> 
                     </div>
                     <div className='face2'>
-                        <FontAwesomeIcon icon={faHtml5} color ="#DD0031" /> 
+                        <FontAwesomeIcon icon={faHtml5} color ="#F06529" /> 
                     </div>
                     <div className='face3'>
-                        <FontAwesomeIcon icon={faJava} color ="#DD0031" /> 
+                        <FontAwesomeIcon icon={faJava} color ="#f70d0c" /> 
                     </div>
                     <div className='face4'>
-                        <FontAwesomeIcon icon={faJs} color ="#DD0031" /> 
+                        <FontAwesomeIcon icon={faReact} color ="#5ED4F4" /> 
                     </div>
                     <div className='face5'>
-                        <FontAwesomeIcon icon={faJsSquare} color ="#DD0031" /> 
+                        <FontAwesomeIcon icon={faJsSquare} color ="#EFD81D" /> 
                     </div>
                     <div className='face6'>
-                        <FontAwesomeIcon icon={faGitAlt} color ="#DD0031" /> 
+                        <FontAwesomeIcon icon={faCss3Alt} color ="#28A4D9" /> 
                     </div>
                 </div>
             </div>
