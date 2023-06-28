@@ -29,7 +29,8 @@
     animation-delay: 1s; 
 }
 
-.about-page{
+.about-page,
+.contact-page{
     .text-zone{
         position: absolute;
         left: 10%;
@@ -77,6 +78,5 @@
             color: #fba45c; 
         }
     }
-
-
 }
+
