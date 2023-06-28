@@ -1,0 +1,67 @@
+import './index.scss'
+import AnimatedLetters from '../AnimatedLetters'
+import { useEffect,useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGitAlt, faHtml5, faJava, faJs, faJsSquare, faPython } from '@fortawesome/free-brands-svg-icons'
+
+const About = () => {
+    const [letterClass,setLetterClass] = useState('text-animate')
+
+    useEffect(() => {
+        const timeoutId = setTimeout(() => {
+            setLetterClass('text-animate-hover')
+        }, 3000);
+        return () => clearTimeout(timeoutId);
+    }, []);
+
+    return (
+        <div className='container about-page'>
+            <div className='text-zone'>
+                <h1>
+                    <AnimatedLetters
+                    letterClass = {letterClass} 
+                    strArray={['A','b','o','u','t', ' ', 'm', 'e']}
+                    idx = {15}
+                    />
+                </h1>
+                <p>
+                I'm a Software Engineering student seeking a summer software
+                developer internship position where I can apply my skills.  
+                </p>
+                <p>
+                My focus is on problem-solving, algorithm design, and data structures, 
+                backed by a strong commitment to teamwork and effective communication.
+                </p>
+                <p>
+                I'm eager to contribute to innovative software solutions and delve deeper into cloud 
+                computing and scalable software design to create efficient, user-friendly systems.
+                </p>
+            </div>
+
+            <div className='stage-cube-cont'>
+                <div className='cubespinner'>
+                    <div className='face1'>
+                        <FontAwesomeIcon icon={faPython} color ="#DD0031" /> 
+                    </div>
+                    <div className='face2'>
+                        <FontAwesomeIcon icon={faHtml5} color ="#DD0031" /> 
+                    </div>
+                    <div className='face3'>
+                        <FontAwesomeIcon icon={faJava} color ="#DD0031" /> 
+                    </div>
+                    <div className='face4'>
+                        <FontAwesomeIcon icon={faJs} color ="#DD0031" /> 
+                    </div>
+                    <div className='face5'>
+                        <FontAwesomeIcon icon={faJsSquare} color ="#DD0031" /> 
+                    </div>
+                    <div className='face6'>
+                        <FontAwesomeIcon icon={faGitAlt} color ="#DD0031" /> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default About
