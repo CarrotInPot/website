@@ -70,3 +70,42 @@ textarea{
     border-radius: 4px;
 }
 }
+
+.info-map {
+    position:  absolute;
+    background-color: #181818;
+    top: 50px;
+    right: 35%;
+    z-index: 999999;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Coolvetica';
+    font-size: 17;  
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1s 1.5s;
+    animation-fill-mode: forwards;
+
+    span {
+        font-size: 16px;
+        display: block;
+        padding-top: 20px;
+        color: #fba45c; 
+    }
+}
+
+.map-wrap {
+    background: rgba(8,253,216,0.1);
+    float: right;
+    width: 53%;
+    height: 100%; 
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0;
+    animation: backInRight 1s 2.1s;
+    animation-fill-mode: forwards;
+}
