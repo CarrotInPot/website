@@ -4,7 +4,6 @@
     position: absolute;
 }
 
-
 .tags{
     color: #181818; 
     opacity: 0.6; 
@@ -14,7 +13,6 @@
     font-size: 18px; 
     font-family:'Coolvetica' ;  
 }
-
 
 .container {
     width: 100%;
@@ -66,10 +64,10 @@
             animation-delay: 1s; 
         }
         &:nth-of-type(2){
-            animation-delay: 1.5s; 
+            animation-delay: 2s; 
         }
         &:nth-of-type(3){
-            animation-delay: 2s; 
+            animation-delay: 3s; 
         }
 
     }
