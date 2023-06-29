@@ -1,0 +1,22 @@
+{
+    "portfolio" : [
+        {
+            "cover": "/portfolio/1/one.JPG",
+            "title": "Dojo Fighter",
+            "description": "Java, Swing, JDBC, MySQL",
+            "url": "https://github.com/CarrotInPot/Dojo-Fighter"
+        },
+        {
+            "cover": "/portfolio/1/two.png",
+            "title": "Battle of Hamburg Err",
+            "description": "Unity, C#",
+            "url": "https://github.com/Leonic16246/Battle-of-Hamburg-Err"
+        }, 
+        {
+            "cover": "/portfolio/1/three.JPG",
+            "title": "Personal Portfolio",
+            "description": "React, JS, HTML, SCSS",
+            "url": "https://github.com/CarrotInPot/website"
+        }
+    ]
+}

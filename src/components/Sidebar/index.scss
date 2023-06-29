@@ -77,6 +77,12 @@
             }
         }
 
+        a.portfolio-link{
+            &:after{
+                content:'Portfolio';
+            }
+        }
+
         a.contact-link{
             &:after{
                 content:'Contact';
