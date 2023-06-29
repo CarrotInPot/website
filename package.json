@@ -1,6 +1,6 @@
 {
   "homepage": "https://carrotinpot.github.io/website",
-  "name": "my-portfolio",
+  "name": "website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
