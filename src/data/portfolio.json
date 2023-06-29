@@ -1,21 +1,21 @@
 {
     "portfolio" : [
         {
-            "cover": "/portfolio/1/one.png",
+            "cover": "/1/one.png",
             "title": "Dojo Fighter",
             "description": "Java, Swing, JDBC, MySQL",
             "url": "https://github.com/CarrotInPot/Dojo-Fighter"
         },
         {
-            "cover": "/portfolio/1/two.png",
+            "cover": "/1/two.png",
             "title": "Battle of Hamburg Err",
             "description": "Unity, C#",
             "url": "https://github.com/Leonic16246/Battle-of-Hamburg-Err"
         },
         {
-            "cover": "/portfolio/1/three.png",
+            "cover": "/1/three.png",
             "title": "Personal Portfolio",
-            "description": "React, JS, HTML, SCSS",
+            "description": "ReactJS, HTML, SCSS",
             "url": "https://github.com/CarrotInPot/website"
         }
     ]
