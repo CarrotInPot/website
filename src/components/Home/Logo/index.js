@@ -11,7 +11,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="App">
+    <div className="MyComponent">
       {loaded && <img src={Logo} alt="Logo" className="fade-in" />}
     </div>
   );
