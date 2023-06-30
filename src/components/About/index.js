@@ -31,8 +31,8 @@ const About = () => {
                 developer internship position where I can apply my skills.  
                 </p>
                 <p>
-                My focus is on problem-solving, algorithm design, and data structures, 
-                backed by a strong commitment to teamwork and effective communication.
+                With Skills in Java, C++, Python, SQL, HTML, CSS, JavaScript, and Git, my focus is on problem-solving, 
+                algorithm design, and data structures, backed by a strong commitment to teamwork and effective communication. 
                 </p>
                 <p>
                 I'm eager to contribute to innovative software solutions and delve deeper into cloud 

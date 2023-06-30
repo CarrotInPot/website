@@ -25,9 +25,11 @@
     }
 
     h2 {
-        color: #ffffff;  
+        font-style: 15px;
+        color: #ffffff;
         font-family: sans-serif;
-        letter-spacing: 1.5px;
+        font-weight: 300; 
+        min-width: fit-content;
         animation: fadeIn 1.5s 4s backwards;
     }
 
@@ -42,6 +44,13 @@
         border: 1px solid #ffffff;
         margin-top: 25px;
         float: left;
-        animation: fadeIn 1s 4.5s backwards; 
+        animation: fadeIn 1s 4.5s backwards;
+        white-space: no pre-wrap; 
+
+        &:hover {
+            background: #fba45c;
+            color: #333;
+        }
     }
+
 }

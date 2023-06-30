@@ -8,7 +8,7 @@ import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
     <div className='nav-bar'>
-        <Link className='logo' to='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
+        <Link className='logo' to='/website/'>
             <img src={LogoS} alt="logo" />
             <img className="sub-logo" src={LogoSubtitle} alt="samuelmeads" />
         </Link>
