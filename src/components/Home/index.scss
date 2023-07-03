@@ -54,3 +54,32 @@
     }
 
 }
+
+@media screen and (max-width: 1200px) {
+
+    .tags,
+    .home-page h1::before,
+    .home-page h1::after{
+        display: none;
+    }
+
+    .home-page .text-zone{
+            font-size: 10px;
+            position: initial;
+            width: 100%; 
+            transform: none;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .home-page .flat-button {
+            float: none; 
+            display: block;
+            margin: 20px auto 0 auto;
+            width: 125px;
+        }
+
+        .MyComponent {
+            display: none;
+        }
+}

@@ -9,7 +9,6 @@ const Layout = () => {
     <div className='page'>
         <Outlet />
         <br/>
-        <span className='bottom-tag-html'>&lt;/html&gt;</span>
     </div>
     </div>
     ) 
