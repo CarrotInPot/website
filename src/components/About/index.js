@@ -31,16 +31,21 @@ const About = () => {
                 engineering internship position where I can apply my skills.  
                 </p>
                 <p>
-                •	4th Year Software Engineering Student Representative 
-                •	CSEA (Computer Science & Engineering Association) General Executive 
-                </p>
-                <p>
                 With Skills in Java, C++, Python, SQL, HTML, CSS, JavaScript, and Git, my focus is on problem-solving, 
                 algorithm design, and data structures, backed by a strong commitment to teamwork and effective communication. 
                 </p>
                 <p>
                 I'm eager to contribute to innovative software solutions and delve deeper into cloud 
                 computing and scalable software design to create efficient, user-friendly systems.
+                </p>
+                <p>
+                Things im involved in:
+                </p>
+                <p>
+                •	Software Engineering Student Representative 
+                </p>
+                <p>
+                •	CSEA (Computer Science & Engineering Association) General Executive 
                 </p>
             </div>
 
