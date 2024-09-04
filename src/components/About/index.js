@@ -27,8 +27,8 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                I'm a Software Engineering student seeking a summer software
-                engineering internship position where I can apply my skills.  
+                I'm a Software Engineering student seeking a software
+                engineering position where I can apply my skills.  
                 </p>
                 <p>
                 With Skills in Java, C++, Python, SQL, HTML, CSS, JavaScript, and Git, my focus is on problem-solving, 
