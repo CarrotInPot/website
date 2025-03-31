@@ -91,7 +91,7 @@
 
         a.active {
             svg {
-                color: #04517ab6;
+                color: #fba45c;
             }
         }
     }
@@ -114,7 +114,7 @@
                 line-height: 16px;
 
                 &:hover svg{
-                    color: #04517ab6; 
+                    color: #fba45c; 
                 }
 
             }
@@ -131,7 +131,7 @@
 
 @media screen and (max-width: 1200px) {
     .nav-bar{
-        background: #033b59;
+        background: #181818;
         position: initial;
         height: auto;
         min-height: auto;

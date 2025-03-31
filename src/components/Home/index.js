@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     const [letterClass,setLetterClass] = useState('text-animate')
-    const nameArray = ['I','\'','m',' ','S', 'a', 'm', '.']
+    const nameArray = ['I','\'','m',' ','S', 'a', 'm', '.',]
     
     useEffect(() => {
         const timeoutId = setTimeout(() => {
@@ -24,7 +24,7 @@ const Home = () => {
         <h1>        
         <AnimatedLetters
                     letterClass = {letterClass} 
-                    strArray={['H','i',' ', 't', 'h', 'e', 'r', 'e', ',']}
+                    strArray={['H','i',' ', 't', 'h', 'e', 'r', 'e', '👋',',']}
                     idx = {15}
                     />
         <br /> 
@@ -34,10 +34,10 @@ const Home = () => {
         <br />
         <img src ={LogoTitle} alt ="developer" /> 
         </h1>
-        <h2>A Software Engineering student at AUT, 
+        <h2>A Graduate Software Engineer from AUT, 
             constantly learning and exploring new 
             technologies in the world of software 
-            development and data science.</h2>
+            development and data science. 👨‍💻</h2>
             <Link to="/website/contact" className='flat-button'> CONTACT ME </Link> 
         </div>
     </div>

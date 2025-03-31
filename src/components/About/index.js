@@ -27,8 +27,8 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                I'm a Software Engineering student seeking a software
-                engineering position where I can apply my skills.  
+                I'm a Gradute Software Engineer seeking a
+                position where I can apply my skills.  
                 </p>
                 <p>
                 With Skills in Java, C++, Python, SQL, HTML, CSS, JavaScript, and Git, my focus is on problem-solving, 
@@ -42,10 +42,7 @@ const About = () => {
                 Things im involved in:
                 </p>
                 <p>
-                •	Software Engineering Student Representative 
-                </p>
-                <p>
-                •	CSEA (Computer Science & Engineering Association) General Executive 
+                • <a href="https://csea.co.nz/" target="_blank" rel="noopener noreferrer">CSEA (Computer Science & Engineering Association)</a> - General Executive 
                 </p>
             </div>
 

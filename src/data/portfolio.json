@@ -3,19 +3,19 @@
         {
             "cover": "/1/one.png",
             "title": "Dojo Fighter",
-            "description": "Java, Swing, JDBC, MySQL",
+            "description": "Java, Swing, JDBC, MySQL, Git",
             "url": "https://github.com/CarrotInPot/Dojo-Fighter"
         },
         {
             "cover": "/1/two.png",
             "title": "Battle of Hamburg Err",
-            "description": "Unity, C#",
+            "description": "Unity, C#, .NET, Git",
             "url": "https://github.com/Leonic16246/Battle-of-Hamburg-Err"
         },
         {
             "cover": "/1/three.png",
             "title": "Personal Portfolio",
-            "description": "ReactJS, HTML, SCSS",
+            "description": "Javascript, HTML, SCSS, React.js",
             "url": "https://github.com/CarrotInPot/website"
         }
     ]
