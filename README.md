@@ -10,7 +10,7 @@ Clone this repository and install dependencies with `npm install`. Start the dev
 
 ## Usage
 
-Visit the website at https://carrotinpot.github.io/website/ to see my portfolio. You can navigate to different sections of the website using the navigation bar at the top.
+Visit the website at https://carrotinpot.github.io/website/ to see my portfolio. You can navigate to different sections of the website using the navigation bar on the left (top if on mobile).
 
 ## Credits
 
